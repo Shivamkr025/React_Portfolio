@@ -1,0 +1,24 @@
+.nav-link {
+    cursor: pointer;
+    
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    transition: background-color 0.1s ease, backdrop-filter 0.5s ease;
+    background-color: transparent;
+    background-color: rgba(217, 217, 217, 0.8);
+}
+
+.navbar.scrolled {
+    background-color: rgba(122, 117, 117, 0.5); 
+    backdrop-filter: blur(10px); 
+}
+
+
+body {
+    padding-top: 70px; /* Adjust this value according to the height of your navbar */
+}
