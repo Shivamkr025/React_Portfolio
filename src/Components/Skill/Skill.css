@@ -1,0 +1,34 @@
+.skill-mainContainer{
+    background-color: #f0f8f8ee;
+}
+
+.img-skill-div {
+    background-image: url('../../assets/developer05.png');
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 10px;
+    height: 55vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+@media (max-width: 768px) {
+    .img-skill-div {
+        height: 40vh; /* Adjust height for smaller screens if needed */
+    }
+}
+
+
+table i{
+    font-size: 2rem;
+    color: orange;
+   
+}
+
+table p{
+    font-size: larger;
+    font-weight: 500;
+}
+
+

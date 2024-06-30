@@ -5,6 +5,7 @@ img{
 
 .home-container{
     height: 90vh;
+    padding: 20px; 
 }
 .home-mainContainer{
     position: relative;
@@ -12,7 +13,7 @@ img{
     height: 100%;
     overflow: hidden;
     color: white;
-    background-image: url('../../assets/image01.jpeg');
+    background-image: url('../../assets/image02.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +29,7 @@ img{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.624);
+    background-color: rgba(0, 0, 0, 0.533);
     z-index: 1;
     pointer-events: none;
 }
@@ -36,20 +37,83 @@ img{
 .text-Container{
     z-index: 2;
     color: white;
+    padding: 20px;
 }
 
 .home-icon{
-    font-size: 30px;
+    font-size: 35px;
     color: white;
    
 }
 
 .home-icon:hover {
-    color: #3572EF; 
+    color: orange; 
 }
 
 .home-btn:hover{
     transform: scale(1.2); 
     transition: transform 0.4s ease; 
     cursor: pointer;
+}
+
+.hii{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.home-name{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.home-dev{
+    font-size: 5em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.home-para{
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.my-name{
+    color: orange;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 65%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+.home-developer{
+    display: inline-block;
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-right: 3px solid black; 
+    animation: typing 3s steps(20, end), blink-caret .75s step-end infinite;
+    animation-fill-mode: forwards; 
+    width: 0;
+    margin-left: 20px;
+    color: orange;
+}
+
+
+
+@media (max-width: 992px) {
+    .home-container {
+        height: auto; /* Allow height to adjust based on content on smaller screens */
+    }
+    .text-Container {
+        text-align: center; /* Center align text on smaller screens */
+    }
+    .home-dev {
+        font-size: 2.5em; /* Adjust font size for smaller screens */
+    }
 }

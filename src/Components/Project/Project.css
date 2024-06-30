@@ -1,0 +1,40 @@
+.p-github{
+    border-radius: 50%;
+}
+
+.p-github:hover{
+    transform: scale(1.1); 
+    transition: transform 0.4s ease; 
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.p-source{
+    border-radius: 50%;
+}
+
+.p-source:hover{
+    transform: scale(1.1); 
+    transition: transform 0.4s ease; 
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.p-icon{
+    font-size: 20px;
+}
+
+.movie-div{
+    border: none;
+}
+
+.movie-div:hover{
+    transform: scale(1.04); 
+    transition: transform 0.5s ease; 
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.project-mainContainer{
+    background-color: #f0f8f8ee;
+}

@@ -1,0 +1,52 @@
+#name{
+    border-radius: 25px;
+    height: 3rem;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
+}
+
+.contact-Container{
+    background-color: #f0f8f8ee;
+}
+
+#email{
+    border-radius: 25px;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
+
+}
+
+#message{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
+
+}
+
+.img-box{
+    height: 25em;
+    width: 25em;
+}
+
+.contact-btn{
+    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
+
+}
+
+.contact-img {
+    background-image: url('../../assets/developer02.png');
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 10px;
+    height: 55vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+@media (max-width: 768px) {
+    .contact-img {
+        height: 40vh; /* Adjust height for smaller screens if needed */
+    }
+}
