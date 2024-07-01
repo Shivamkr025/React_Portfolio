@@ -67,7 +67,7 @@ img{
 }
 
 .home-dev{
-    font-size: 5em;
+    font-size: 3.7em;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@ img{
 
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: black; }
+    50% { border-color: rgb(9, 9, 9); }
 }
 .home-developer{
     display: inline-block;
