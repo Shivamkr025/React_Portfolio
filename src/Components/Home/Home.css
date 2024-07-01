@@ -100,7 +100,7 @@ img{
     animation: typing 3s steps(20, end), blink-caret .75s step-end infinite;
     animation-fill-mode: forwards; 
     width: 0;
-    margin-left: 20px;
+    margin-left: 14px;
     color: orange;
 }
 

@@ -15,7 +15,7 @@ function About() {
                     </div>
                     <div className="col-md-7">
                         <p className='pt-4 about-para'>Greetings! 🌟<br />
-                        I'm Shivam, currently wrapping up my B.Com degree and fresh out of an intensive web development course at Hyper Verge Academy. I specialize in crafting responsive websites and dynamic web applications. Driven by a passion for impactful solutions,I thrive on creating engaging user experiences and innovative applications. Beyond coding, I find joy in traditional photography, cricket, and music. Eager to learn and explore, I'm ready to bring excellence to your team!</p>
+                        I have recently completed my journey as a MERN Stack Developer and am excited to join a company where I can improve my skills and contribute to projects. With knowledge in MongoDB, Express.js, React.js, and Node.js, I am ready to help build and maintain web applications. I am looking for a friendly and innovative workplace where I can continue to learn and grow while making a positive impact.</p>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Navbar.css';
+import Toggle from '../Toggle/Toggle';
 
 function Navbar() {
 
@@ -11,8 +12,8 @@ function Navbar() {
         <nav className="navbar navbar-expand-md navbar-light py-3">
             <div className="container">
 
-                <i className="fa-regular fa-face-smile" style={{ color: "rgb(227, 200, 255)", fontSize: '1.5rem' }}></i>
-                <span className="fs-4 text-danger" style={{ fontWeight: '600', marginLeft: '8px' }}>Shivam Kumar</span>
+                <i class="bi bi-emoji-smile-fill nav-shivam"></i>
+                <span className="fs-4 nav-shivam" style={{ fontWeight: 'bold', marginLeft: '8px' }}>Shivam</span>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -85,6 +86,10 @@ function Navbar() {
                             >
                               <i class="bi bi-chat-text nav-icon">CONTACT</i>  
                             </Link>
+                        </li>
+
+                        <li className='nav-item'>
+                            <Toggle/>
                         </li>
                     </ul>
                 </div>

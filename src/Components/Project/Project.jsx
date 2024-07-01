@@ -25,7 +25,7 @@ function Project() {
         ,
         {
             imgLink: eShop,
-            paragraph: "Working On",
+            paragraph: "Still working on this project",
             sourceCode: "https://github.com/Shivamkr025/React_project/tree/main/E-Shop_app"
         }
         ,
@@ -37,7 +37,7 @@ function Project() {
         ,
         {
             imgLink: books,
-            paragraph: "Pellentesque habitant .",
+            paragraph: "Book Library .",
             sourceCode: "https://github.com/Shivamkr025/React_project/tree/main/bookLibrary"
         },
         {

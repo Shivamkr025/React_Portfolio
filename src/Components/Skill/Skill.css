@@ -1,6 +1,11 @@
-.skill-mainContainer{
-    background-color: #f0f8f8ee;
+.table p{
+    color: black; /* Default text color for day mode */
 }
+
+body.night-mode .table p{
+    color: white; 
+}
+
 
 .img-skill-div {
     background-image: url('../../assets/developer05.png');

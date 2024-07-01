@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Home.css'
 
 
@@ -8,10 +8,10 @@ function Home() {
         <div className="home-mainContainer ">
             <div className="row align-items-center justify-content-end home-container">
                 <div className="col-md-5 text-md-left text-Container text-align-justify" >
-                    <p className='hii'>Hii,</p>
-                    <p className='home-name'>I am <span className='my-name'>Shivam Kumar</span></p>
-                    <h1 className='home-dev'>I'm a <span className='home-developer'> Developer!</span></h1>
-                    <p className='home-para'>I'm Shivam Kumar, a web developer. This portfolio you're exploring is my creation, made with React. I enjoy crafting visually appealing and user-friendly websites using MERN Stack .</p>
+                        <p className='hii'>Hii,</p>
+                        <p className='home-name'>I am <span className='my-name'>Shivam .</span></p>
+                        <h1 className='home-dev'>I'm a <span className='home-developer'> Developer!</span></h1>
+                        <p className='home-para'>Welcome to my portfolio! This site, created using React, showcases my work as a web developer. I enjoy crafting visually appealing and user-friendly websites using the MERN Stack.</p>
 
                     <div className="d-flex justify-content-md-start justify-content-center">
                         <a href="https://github.com/Shivamkr025" target="_blank" rel="noopener noreferrer" className="me-2">
@@ -31,7 +31,7 @@ function Home() {
                         </a>
                         <a href="https://drive.google.com/file/d/1qUH80e2Bl6WHDXEMKfA8osnMD3_dZ84i/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="me-2">
                             <button className="btn home-btn">
-                                <i className="bi bi-file-earmark-person home-icon"></i>
+                                <i className="bi bi-file-earmark-text home-icon"></i>
                             </button>
                         </a>
                         

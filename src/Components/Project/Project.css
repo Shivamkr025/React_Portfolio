@@ -36,5 +36,14 @@
 }
 
 .project-mainContainer{
-    background-color: #f0f8f8ee;
+    /* background-color: rgba(255, 255, 255, 0.933); */
+}
+
+
+.p-icon{
+    color: black; /* Default text color for day mode */
+}
+
+body.night-mode .p-icon{
+    color: white; 
 }

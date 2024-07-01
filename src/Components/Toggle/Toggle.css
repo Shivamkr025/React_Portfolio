@@ -1,0 +1,26 @@
+body.day-mode {
+    background-color: rgba(255, 255, 255, 0.862);
+    color: black;
+}
+
+body.night-mode {
+    background-image: linear-gradient(to right ,rgba(12, 12, 94, 0.933), rgba(8, 8, 64, 0.933));
+    background-color: rgba(12, 12, 94, 0.933);
+    color: white;
+}
+
+
+.toggle-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-button span {
+    margin-left: 5px;
+}
+
+.toggle-button .icon {
+    font-size: 20px;
+}
