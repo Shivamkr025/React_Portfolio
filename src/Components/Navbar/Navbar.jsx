@@ -12,8 +12,10 @@ function Navbar() {
         <nav className="navbar navbar-expand-md navbar-light py-3">
             <div className="container">
 
-                <i class="bi bi-emoji-smile-fill nav-shivam"></i>
-                <span className="fs-4 nav-shivam" style={{ fontWeight: 'bold', marginLeft: '8px' }}>Shivam</span>
+                <span className="fs-4 nav-shivam" style={{ fontWeight: 'bold', marginLeft: '8px' }}>
+                    <i class="bi bi-emoji-smile-fill nav-shivam"></i>
+                    Shivam
+                </span>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -32,7 +34,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link text-danger"
                             >
-                                <i className="bi bi-house nav-icon">Home</i> 
+                                <i className="bi bi-house nav-icon"></i> 𝐇𝐎𝐌𝐄
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -45,7 +47,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                                <i className="bi bi-person nav-icon">ABOUT</i> 
+                                <i className="bi bi-person nav-icon"></i> 𝐀𝐁𝐎𝐔𝐓
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -58,7 +60,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                                <i class="bi bi-briefcase nav-icon">SKILL</i> 
+                                <i class="bi bi-briefcase nav-icon"></i> 𝐒𝐊𝐈𝐋𝐋
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -71,7 +73,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                               <i class="bi bi-file-earmark-check nav-icon">PROJECT</i> 
+                                <i class="bi bi-file-earmark-check nav-icon"></i> 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -84,12 +86,13 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                              <i class="bi bi-chat-text nav-icon">CONTACT</i>  
+                                <i class="bi bi-chat-text nav-icon"></i> 𝐂𝐎𝐍𝐓𝐀𝐂𝐓
                             </Link>
                         </li>
 
-                        <li className='nav-item'>
-                            <Toggle/>
+                        <li className='nav-item nav-toggle'>
+                            <Toggle />
+ 
                         </li>
                     </ul>
                 </div>

@@ -4,7 +4,7 @@ import './Skill.css'
 
 function Skill() {
     return (
-        <div className='skill-mainContainer'>
+        <div className='skill-mainContainer pt-4'>
             <h1 className='text-center'>Skill</h1>
             <div className="container " >
                 <h3 className='pd-4'> 🌟 Skills in web development, design, and problem-solving.</h3>

@@ -17,10 +17,11 @@ body.night-mode {
     align-items: center;
 }
 
-.toggle-button span {
+/* .toggle-button span {
     margin-left: 5px;
-}
+    margin-top: 3px;
+} */
 
 .toggle-button .icon {
-    font-size: 20px;
+    font-size: 25px;
 }

@@ -36,5 +36,9 @@ body {
 
 .nav-shivam{
     font-size: 25px;
-    color: rgb(255, 166, 0);
+    color: rgb(25, 0, 251);
+}
+
+.nav-toggle{
+    margin-left: 10px;
 }
