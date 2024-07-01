@@ -13,8 +13,7 @@ function Navbar() {
             <div className="container">
 
                 <span className="fs-4 nav-shivam" style={{ fontWeight: 'bold', marginLeft: '8px' }}>
-                    <i class="bi bi-emoji-smile-fill nav-shivam"></i>
-                    Shivam
+                    Shivam Kumar
                 </span>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
