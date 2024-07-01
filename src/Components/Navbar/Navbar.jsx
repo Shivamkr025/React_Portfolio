@@ -33,7 +33,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link text-danger"
                             >
-                                <i className="bi bi-house nav-icon"></i> 𝐇𝐎𝐌𝐄
+                                <i className="bi bi-house nav-icon"></i> <span className='nav-titles'>𝐇𝐎𝐌𝐄</span>
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -46,7 +46,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                                <i className="bi bi-person nav-icon"></i> 𝐀𝐁𝐎𝐔𝐓
+                                <i className="bi bi-person nav-icon"></i> <span className='nav-titles'>𝐀𝐁𝐎𝐔𝐓</span>
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -59,7 +59,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                                <i class="bi bi-briefcase nav-icon"></i> 𝐒𝐊𝐈𝐋𝐋
+                                <i class="bi bi-briefcase nav-icon"></i> <span className='nav-titles'> 𝐒𝐊𝐈𝐋𝐋</span>
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -72,7 +72,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                                <i class="bi bi-file-earmark-check nav-icon"></i> 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
+                                <i class="bi bi-file-earmark-check nav-icon"></i><span className='nav-titles'>𝐏𝐑𝐎𝐉𝐄𝐂𝐓</span> 
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -85,7 +85,7 @@ function Navbar() {
                                 duration={100}
                                 className="nav-link"
                             >
-                                <i class="bi bi-chat-text nav-icon"></i> 𝐂𝐎𝐍𝐓𝐀𝐂𝐓
+                                <i class="bi bi-chat-text nav-icon"></i><span className='nav-titles'> 𝐂𝐎𝐍𝐓𝐀𝐂𝐓</span>
                             </Link>
                         </li>
 

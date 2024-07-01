@@ -28,10 +28,11 @@ body {
     font-weight: 500;
 }
 
-.nav-icon:hover {
+.nav-titles:hover {
     color: #F8FAE5;   
     border-bottom: 2px solid #eaff00;
 }
+
 
 
 .nav-shivam{
