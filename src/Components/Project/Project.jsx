@@ -2,8 +2,8 @@ import React from 'react';
 import './Project.css'
 import movieSite from '../../assets/movieSite.png'
 import consult from '../../assets/consult.png'
-import news from '../../assets/newsApp.png'
-import books from '../../assets/bookLibrary.png'
+import trivia from '../../assets/triviaBattle.png'
+import blog from '../../assets/blogApp.png'
 import eShop from '../../assets/eShop2.png'
 import nodeMaller from '../../assets/nodeMaller.png'
 
@@ -12,34 +12,34 @@ function Project() {
     let projectDetail = [
         {
             imgLink: movieSite,
-            paragraph: "MERN Stack Project",
+            paragraph: "Movies Theather Application",
             deployLink: "https://sk025movieplex.netlify.app/",
-            sourceCode: "https://sk025movieplex.netlify.app/"
+            sourceCode: "https://github.com/Shivamkr025/securityBoat_assignment"
+        },
+        {
+            imgLink: blog,
+            paragraph: "Blog Website.",
+            deployLink: "https://inspireblogkr025.netlify.app/",
+            sourceCode: "https://github.com/Shivamkr025/Blog-app_Bharat-Intern.git"
+        },
+        {
+            imgLink: trivia,
+            paragraph: "Trivia BAttle Game ",
+            deployLink: "https://sk025-trivia-battle.netlify.app/",
+            sourceCode: "https://github.com/Shivamkr025/HVA_Hackathon_4.0"
         },
         {
             imgLink: consult,
             paragraph: "React Design",
             deployLink: "https://shivamkr025consult.netlify.app/",
-            sourceCode: "https://shivamkr025consult.netlify.app/"
+            sourceCode: "https://github.com/Shivamkr025/React_project/tree/main/BusinessProject"
         },
-        ,
         {
             imgLink: eShop,
             paragraph: "Still working on this project",
             sourceCode: "https://github.com/Shivamkr025/React_project/tree/main/E-Shop_app"
-        }
-        ,
-        {
-            imgLink: news,
-            paragraph: "JavaScript News Application",
-            sourceCode: "https://github.com/Shivamkr025/news_application"
-        }
-        ,
-        {
-            imgLink: books,
-            paragraph: "Book Library .",
-            sourceCode: "https://github.com/Shivamkr025/React_project/tree/main/bookLibrary"
         },
+
         {
             imgLink: nodeMaller,
             paragraph: "Node-Maller Backend Project.",

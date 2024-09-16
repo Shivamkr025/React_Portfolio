@@ -7,10 +7,11 @@
     position: fixed;
     top: 0;
     width: 100%;
+    height: 4.5rem;
     z-index: 1000; 
     transition: background-color 0.1s ease, backdrop-filter 0.5s ease;
     background-color: transparent;
-    background-color: rgba(159, 156, 156, 0.736);
+    background-color: rgba(159, 156, 156, 0.752);
 }
 
 .navbar.scrolled {
@@ -38,8 +39,4 @@ body {
 .nav-shivam{
     font-size: 25px;
     color: rgb(255, 255, 255);
-}
-
-.nav-toggle{
-    margin-left: 10px;
 }

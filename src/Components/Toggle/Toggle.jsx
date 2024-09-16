@@ -22,7 +22,7 @@ function Toggle() {
     return (
         <div className="toggle-button" onClick={toggleTheme}>
             <i className={`bi ${isNight ? 'bi-sun' : 'bi-moon-stars'} icon`}></i>
-            {/* <span>{isNight ? '𝐃𝐀𝐘-𝐌𝐎𝐃𝐄' : '𝐍𝐈𝐆𝐇𝐓-𝐌𝐎𝐃𝐄'}</span> */}
+            <span>{isNight ? '𝐃𝐀𝐘' : '𝐍𝐈𝐆𝐇𝐓'} </span>
         </div>
 
     )
