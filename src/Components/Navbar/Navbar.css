@@ -1,6 +1,5 @@
 .nav-link {
     cursor: pointer;
-    
 }
 
 .navbar {
@@ -10,8 +9,7 @@
     height: 4.5rem;
     z-index: 1000; 
     transition: background-color 0.1s ease, backdrop-filter 0.5s ease;
-    background-color: transparent;
-    background-color: rgba(159, 156, 156, 0.752);
+    background-color: rgba(159, 156, 156, 0.752); 
 }
 
 .navbar.scrolled {
@@ -19,12 +17,28 @@
     backdrop-filter: blur(10px); 
 }
 
-
-body {
-    padding-top: 70px; /* Adjust this value according to the height of your navbar */
+/* Add a solid background for dropdown when opened */
+.navbar .collapse.show {
+    margin-top: 3.5%;
+    backdrop-filter: none; 
+    background-color: rgba(159, 156, 156, 0.9); 
 }
 
-.nav-icon{
+.navbar .collapse .nav-link {
+    /* background-color: rgba(159, 156, 156, 0.9); */
+    color: white; 
+}
+
+/* Optional: add hover effect for dropdown links */
+.navbar .collapse .nav-link:hover {
+    background-color: rgba(175, 171, 171, 0.8);
+}
+
+body {
+    padding-top: 70px; 
+}
+
+.nav-icon {
     font-size: larger;
     font-weight: 500;
 }
@@ -34,9 +48,7 @@ body {
     border-bottom: 2px solid #eaff00;
 }
 
-
-
-.nav-shivam{
+.nav-shivam {
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
