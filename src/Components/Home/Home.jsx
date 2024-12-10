@@ -29,7 +29,7 @@ function Home() {
                                 <i className="bi bi-instagram home-icon"></i>
                             </button>
                         </a>
-                        <a href="https://drive.google.com/drive/folders/1jG7qv69x94GqXgQi2ZPUI848Wk-Elc_9?usp=sharing" target="_blank" rel="noopener noreferrer" className="me-2">
+                        <a href="https://drive.google.com/file/d/1TbIdhUV4dFZ-ocpEtwIQjnZCtPYMN2Cw/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="me-2">
                             <button className="btn home-btn">
                                 <i className="bi bi-file-earmark-text home-icon"></i>
                             </button>
