@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 
 .about-img{
@@ -8,5 +9,7 @@
 }
 
 .about-para{
-    font-size: 1.3em;
+    font-size: 1.8em;
+    text-align: justify;
+    font-family: 'Patrick Hand', cursive;
 }

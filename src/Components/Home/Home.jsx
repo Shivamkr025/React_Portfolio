@@ -8,9 +8,8 @@ function Home() {
         <div className="home-mainContainer ">
             <div className="row align-items-center justify-content-end home-container">
                 <div className="col-md-5 text-md-left text-Container text-align-justify" >
-                        <p className='hii'>Hii,</p>
-                        <p className='home-name'>I am <span className='my-name'>Shivam .</span></p>
-                        <h1 className='home-dev'>I'm a <span className='home-developer'> Developer!</span></h1>
+                        <p className='hii'>Hello,</p>
+                        <p className='home-name'>I'm Shivam Kumar <span className='my-name'>a Web Developer!</span></p>
                         <p className='home-para'>Welcome to my portfolio! This site, created using React, showcases my work as a web developer. I enjoy crafting visually appealing and user-friendly websites using the MERN Stack.</p>
 
                     <div className="d-flex justify-content-md-start justify-content-center">

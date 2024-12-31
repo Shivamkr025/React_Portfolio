@@ -14,8 +14,8 @@ function About() {
                         <img src={img} alt="Profile Image" className="img-fluid img-box mt-4 about-img" />
                     </div>
                     <div className="col-md-7">
-                        <p className='pt-4 about-para'>Greetings! 🌟<br />
-                        I have recently completed my journey as a MERN Stack Developer and am excited to join a company where I can improve my skills and contribute to projects. With knowledge in MongoDB, Express.js, React.js, and Node.js, I am ready to help build and maintain web applications. I am looking for a friendly and innovative workplace where I can continue to learn and grow while making a positive impact.</p>
+                        <p className='pt-4 about-para '>Greetings! 🌟<br />
+                        I have completed my journey as a MERN Stack Developer and am eager to contribute my skills in building and maintaining web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, I’m excited to join an innovative team where I can grow, collaborate, and make a meaningful impact.</p>
                     </div>
                 </div>
             </div>
