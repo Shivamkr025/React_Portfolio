@@ -34,7 +34,7 @@ function Contact() {
                 <div className="row align-items-center">
                     <div className="col-md-6 text-center contact-img">
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 form-container">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="form-group mb-4">
                                 <input

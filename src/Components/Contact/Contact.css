@@ -2,7 +2,8 @@
     border-radius: 25px;
     height: 3rem;
     background-color: rgb(251, 251, 251);
-    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+
 }
 
 .contact-Container{
@@ -13,15 +14,15 @@
     border-radius: 25px;
     height: 3rem;
     background-color: rgb(255, 255, 255);
-    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+
 
 }
 
 #message{
     border-radius: 10px;
     background-color: white;
-    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
-
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .img-box{
@@ -30,7 +31,7 @@
 }
 
 .contact-btn{
-    box-shadow: 2px 3px 5px 2px rgb(181, 181, 181);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -45,8 +46,14 @@
     align-items: center; 
 }
 
+.form-container{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.638);
+    padding: 30px;
+    border-radius: 10px;
+}
+
 @media (max-width: 768px) {
     .contact-img {
-        height: 40vh; /* Adjust height for smaller screens if needed */
+        height: 40vh; 
     }
 }

@@ -4,7 +4,7 @@ body.day-mode {
 }
 
 body.night-mode {
-    background-image: linear-gradient(to right ,#2F3645, #2F3645);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     background-color: rgb(0, 0, 0);
     color: white;
 }
